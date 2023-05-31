@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="vfxpipe",
-    version="0.0.1",
+    name="vfxpipeline",
+    version="0.0.2",
     author="Yogendra Singh",
     author_email="yogendrasingh.hqvfx@gmail.com",
     description="A studio Pipeline for 3d animation and VFX studio",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yogendra97github/GitDemoProjectV1",
+    url="https://github.com/yogendra97github/vfxpipeline.git",
     project_urls={
-        "Bug Tracker": "https://github.com/yogendra97github/GitDemoProjectV1/issues",
+        "Bug Tracker": "https://github.com/yogendra97github/vfxpipeline/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
